@@ -27,5 +27,6 @@
 | [eLinex Vision Stream](https://github.com/EtherealBian/elinx-vision-stream) | OV5640 视频采集、FPGA 图像处理与 HDMI / UDP 输出 |
 | [Vitis HLS Kernel Optimization](https://github.com/EtherealBian/vitis-hls-kernel-optimization) | 基于 AMD Vitis Libraries 优化 HMAC-SHA256、LZ4 和 Cholesky，附决赛 Zynq 频谱仪 |
 | [FPGA Lissajous Controller](https://github.com/EtherealBian/fpga-lissajous-controller) | I/Q 跟踪、CORDIC 与 DDS 波形合成 |
+| [N60 Ultrasonic Phased Array](https://github.com/EtherealBian/n60-ultrasonic-phased-array) | 60 路超声相控阵、Python 波束参数计算和 FPGA PWM |
 
 更多项目、实习经历和竞赛记录见[个人主页](https://etherealbian-home.unitedlabel4.chatgpt.site/)。
