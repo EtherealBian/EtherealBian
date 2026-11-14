@@ -4,7 +4,21 @@
 
 [个人主页 / Personal website](https://etherealbian-home.unitedlabel4.chatgpt.site/) · [Email](mailto:EtheralBian@njust.edu.cn)
 
-我主要做 FPGA 数字系统、信号处理和量子计算硬件相关工程。在太一量生实习期间，参与声光偏转器（AOD）控制、相机图像采集与处理，以及拟投 DAC 2027 的论文准备。
+我主要做 FPGA 数字系统、信号处理和量子计算硬件相关工程。
+
+## 实习经历
+
+**太一量生（上海）量子科技有限公司 · 控制算法工程师**
+
+2026.10–至今
+
+- **CXP 采集与显示**。基于 ZCU216 设计 CXP 至 AXI-Stream 转换及 FIFO 背压缓冲。搭建 SGDMA 写入 PL DDR、CDMA 搬运至 PS DDR 的两级通路，实现 AXI DMA 直写 PS DDR 的备选路径，并在 PetaLinux 下通过 UDP 回显图像。
+- **HLS 原子检测**。设计 4-bank 行分片 DATAFLOW 流水线，通过三副本行缓存和冲突仲裁解决多读口冲突，实现窗口提取与乘加流水化。用二分法预计算判决边界，将实时浮点比较替换为整数判决。在 300 MHz 下，单帧延迟为 0.268 ms。
+- **HLS 原子重排**。将行列扫描的确定性分通道策略实现为 HLS 流水线，依次执行分类、清空通道、批量停靠和缺失补偿。重排受 AOD 双轴各 16 音调上限约束，按波控接口输出每条 5 拍、每拍 512 bit 的 AXI-Stream 指令。
+- **AOD 多音调控制**。在 ZCU216 上实现 X/Y 双轴多音调 RF 波形合成。每轴支持 16 音调，通过四路并行 CORDIC 生成连续 I/Q 样本，经多音调求和、包络整形后打包送入 RF-DAC，支持频率配置、扫频与包络控制。
+- **链路联调与平台迁移**。参与 100G 回传链路与 Spark 集群的联调，以及向 VCU118 的迁移，使用 PCIe 替代原有 PS 端与主机交互。
+
+实习期间准备拟投 DAC 2027 的论文。[完整个人主页](https://etherealbian-home.unitedlabel4.chatgpt.site/#experience)
 
 ## 工程项目
 
