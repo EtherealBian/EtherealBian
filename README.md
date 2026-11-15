@@ -1,4 +1,4 @@
-# Xiangyu Bian
+# Ethereal
 
 南京理工大学 · 通信工程 ｜ 东南大学 · 保研-网络安全
 
