@@ -2,7 +2,7 @@
 
 南京理工大学 · 通信工程 ｜ 东南大学 · 保研-网络安全
 
-[个人主页 / Personal website](https://etherealbian-home.unitedlabel4.chatgpt.site/) · [Email](mailto:EtheralBian@njust.edu.cn)
+[个人主页 / Personal website](https://etherealbian.github.io/) · [Email](mailto:EtheralBian@njust.edu.cn)
 
 我主要做 FPGA 数字系统、信号处理和量子计算硬件相关工程。
 
@@ -18,7 +18,7 @@
 - **AOD 多音调控制**。在 ZCU216 上实现 X/Y 双轴多音调 RF 波形合成。每轴支持 16 音调，通过四路并行 CORDIC 生成连续 I/Q 样本，经多音调求和、包络整形后打包送入 RF-DAC，支持频率配置、扫频与包络控制。
 - **链路联调与平台迁移**。参与 Spark 集群与 VCU118 之间的 100G RDMA 通信联调，以及两块 ZCU216 之间的 4 × 12.5G 板间通信联调。参与向 VCU118 迁移，主机通过 PCIe 与 FPGA 交互。
 
-实习期间准备拟投 DAC 2027 的论文。[完整个人主页](https://etherealbian-home.unitedlabel4.chatgpt.site/#experience)
+实习期间准备拟投 DAC 2027 的论文。[完整个人主页](https://etherealbian.github.io/#experience)
 
 ## 工程项目
 
@@ -29,4 +29,4 @@
 | [FPGA Lissajous Controller](https://github.com/EtherealBian/fpga-lissajous-controller) | I/Q 跟踪、CORDIC 与 DDS 波形合成 |
 | [N60 Ultrasonic Phased Array](https://github.com/EtherealBian/n60-ultrasonic-phased-array) | 60 路超声相控阵、Python 波束参数计算和 FPGA PWM |
 
-更多项目、实习经历和竞赛记录见[个人主页](https://etherealbian-home.unitedlabel4.chatgpt.site/)。
+更多项目、实习经历和竞赛记录见[个人主页](https://etherealbian.github.io/)。
